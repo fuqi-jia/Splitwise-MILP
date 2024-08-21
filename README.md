@@ -25,8 +25,8 @@ A should pay C 7.00
 ```
 
 <p align="center">
-  <img src="./test/splitwise1.png" alt="Before Optimization" width="300"/>
-  <img src="./test/splitwise2.png" alt="After Optimization" width="300"/>
+  <img src="./images/splitwise1.png" alt="Before Optimization" width="300"/>
+  <img src="./images/splitwise2.png" alt="After Optimization" width="300"/>
 </p>
 
 ## Theory Aspect: Encoding

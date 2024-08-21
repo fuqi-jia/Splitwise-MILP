@@ -6,13 +6,13 @@ I wrote a Splitwise algorithm using MILP encoding. During our trip to Yosemite (
 
 ## How To Run
 
-Prepare the name list and payments. Add them to `names` and `payments`, then run
+Prepare the name list and payments. Add them to `persons` and `payments`, then run
 
 `python splitwise_opt.py`
 
 It will output the final optimal solution.
 
-For example, `names = ['A', 'B', 'C']` and `payments['A'] = 0, payments['B'] = 9, payments['C'] = 15`, it will outputs:
+For example, `persons = ['A', 'B', 'C']` and `payments['A'] = 0, payments['B'] = 9, payments['C'] = 15`, it will outputs:
 ```
 ---Total Owe---
 A should pay 8.00

@@ -24,19 +24,7 @@ A should pay C 7.00
 ---Solution end---
 ```
 
-<div style="display: flex; justify-content: center; align-items: center;">
-
-  <figure style="margin: 10px;">
-    <img src="./images/splitwise1.png" alt="Image 1" width="300"/>
-<!--     <figcaption style="text-align: center;">Before Optimization</figcaption> -->
-  </figure>
-
-  <figure style="margin: 10px;">
-    <img src="./images/splitwise2.png" alt="Image 2" width="300"/>
-<!--     <figcaption style="text-align: center;">After Optimization</figcaption> -->
-  </figure>
-
-</div>
+![splitwise](./splitwise_all.png "Splitwise via MILP")
 
 
 ## Theory Aspect: Encoding

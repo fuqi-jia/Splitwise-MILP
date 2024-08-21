@@ -34,7 +34,7 @@ Assume we have $n$ persons involved. The payment is $P$, whereas $P(i)$ is the p
 
 Then the weight of each directed edge from person $i$ to person $j$ is $w_{ij} = P(j) / n$.
 
-We obtain an initial solution: $s_{ij}$, which means the amount that person $i$ should pay to person $j$. These are continuous constants where $s_{ij} = w_{ij}-w_{ji}$.
+We obtain an initial solution: $s_{ij} = w_{ij}-w_{ji}$, which means the amount that person $i$ should pay to person $j$. These are continuous constants.
 
 ### Variables
 

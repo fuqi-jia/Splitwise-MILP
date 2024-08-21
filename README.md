@@ -24,6 +24,11 @@ A should pay C 7.00
 ---Solution end---
 ```
 
+<p align="center">
+  <img src="./test/splitwise1.png" alt="Before Optimization" width="300"/>
+  <img src="./test/splitwise2.png" alt="After Optimization" width="300"/>
+</p>
+
 ## Theory Aspect: Encoding
 We want to explicitly minimize the number of transactions. 
 

@@ -24,10 +24,20 @@ A should pay C 7.00
 ---Solution end---
 ```
 
-<p align="center">
-  <img src="./images/splitwise1.png" alt="Before Optimization" width="300"/>
-  <img src="./images/splitwise2.png" alt="After Optimization" width="300"/>
-</p>
+<div style="display: flex; justify-content: center; align-items: center;">
+
+  <figure style="margin: 10px;">
+    <img src="./images/splitwise1.png" alt="Image 1" width="300"/>
+    <figcaption style="text-align: center;">Before Optimization</figcaption>
+  </figure>
+
+  <figure style="margin: 10px;">
+    <img src="./images/splitwise2.png" alt="Image 2" width="300"/>
+    <figcaption style="text-align: center;">After Optimization</figcaption>
+  </figure>
+
+</div>
+
 
 ## Theory Aspect: Encoding
 We want to explicitly minimize the number of transactions. 

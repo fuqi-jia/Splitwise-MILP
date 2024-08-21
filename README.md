@@ -28,12 +28,12 @@ A should pay C 7.00
 
   <figure style="margin: 10px;">
     <img src="./images/splitwise1.png" alt="Image 1" width="300"/>
-    <figcaption style="text-align: center;">Before Optimization</figcaption>
+<!--     <figcaption style="text-align: center;">Before Optimization</figcaption> -->
   </figure>
 
   <figure style="margin: 10px;">
     <img src="./images/splitwise2.png" alt="Image 2" width="300"/>
-    <figcaption style="text-align: center;">After Optimization</figcaption>
+<!--     <figcaption style="text-align: center;">After Optimization</figcaption> -->
   </figure>
 
 </div>

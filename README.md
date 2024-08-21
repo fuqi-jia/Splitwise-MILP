@@ -2,7 +2,7 @@
 The Splitwise-like algorithm using MILP encoding. The Splitwise app can be found at https://www.splitwise.com/.
 
 ## Motivation
-I wrote a Splitwise algorithm using MILP encoding. During our trip to Yosemite (2024/08/16 - 2024/08/18), my senior recommended this app to split costs. I became very curious about its algorithm. So, I implemented a Splitwise-like algorithm based on MILP encoding (NP-Complete). Of course, you could also use LP encoding (which has P algorithms), but that would yield an approximately optimal solution.
+I wrote a Splitwise algorithm using MILP encoding. During our trip to Yosemite (2024/08/16 - 2024/08/18), my senior recommended this app to split costs. I became very curious about its algorithm. So, I implemented a Splitwise-like algorithm based on MILP encoding (NP-Complete). Of course, you could also use LP encoding (which has P algorithms), but that sometimes would yield an approximately optimal solution.
 
 ## How To Run
 

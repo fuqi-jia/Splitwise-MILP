@@ -12,7 +12,7 @@ Prepare the name list and payments. Add them to `persons` and `payments`, then r
 
 It will output the final optimal solution.
 
-For example, `persons = ['A', 'B', 'C']` and `payments['A'] = 0, payments['B'] = 9, payments['C'] = 15`, it will outputs:
+For example, `persons = ['A', 'B', 'C']` and `payments['A'] = 0, payments['B'] = 9, payments['C'] = 15`, it will output:
 ```
 ---Total Owe---
 A should pay 8.00

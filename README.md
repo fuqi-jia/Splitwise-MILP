@@ -24,7 +24,7 @@ A should pay C 7.00
 ---Solution end---
 ```
 
-![splitwise](./splitwise_all.png "Splitwise via MILP")
+![splitwise](./splitwise-all.png "Splitwise via MILP")
 
 
 ## Theory Aspect: Encoding

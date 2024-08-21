@@ -51,7 +51,7 @@ Minimize the number of transactions: $\text{Minimize } \sum_{i \neq j} z_{ij}$
 - Transaction Activation: $y_{ij} \leq M * z_{ij}$
 - Transaction Invariant: $\sum_{i} y_{ij} - \sum_{i} y_{ji} = s_{ij}$
 
-### LP Encoding (Approximate)
+### LP Encoding (Sometimes Approximate)
 
 #### Objective Function
 Approximately, minimize the total amount of payments: $\text{Minimize } \sum_{i \neq j} y_{ij}$

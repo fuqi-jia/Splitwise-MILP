@@ -12,9 +12,9 @@ I wrote a Splitwise algorithm using MILP encoding. During our trip to Yosemite (
 We want to explicitly minimize the number of transactions. 
 Assume we have $n$ persons involved. The payment is $P$, whereas $P(i)$ is the payment by person $i$. We can construct a complete graph connecting all persons. Then the weight of each directed edge from person $i$ to person $j$ is $w_{ij} = P(j) / n$.
 We obtain an initial solution: $s_{ij}$, which means the amount that person $i$ should pay to person $j$. These are continuous constants. 
-```
+$$
 s_{ij} = w_{ij}-w_{ji}.
-```
+$$
 
 **Variables:**
 Let $x_{ij}$ be a slack value reducing the amount that person $i$ pays to person $j$. These are continuous variables.
@@ -23,43 +23,38 @@ Let $z_{ij}$ be a binary variable of {0, 1}, meaning whether $y_{ij}$ is zero; i
 
 ### MILP Formulation:
 
-** Objective Function: ** 
-\[
+#### Objective Function
+$$
 \text{Minimize } \sum_{i \neq j} z_{ij}
-\]
+$$
 
-** Constraints: **
+#### Constraints
 - ** Solution Definition: **
-\[
+$$
 y_{ij} = s_{ij} - x_{ij}
-\]
+$$
 - ** Transaction Activation: **
-\[
+$$
 y_{ij} \leq M * z_{ij}
-\]
+$$
 - ** Transaction Invariant: **
-\[
+$$
 \sum_{j} y_{ij} - \sum_{j} y_{ji} = s_{ij}
-\]
+$$
 
 ### LP Encoding
 
+#### Objective Function
+$$
+\text{Minimize } \sum_{i \neq j} y_{ij}
+$$
 
-** Objective Function: ** 
-\[
-\text{Minimize } \sum_{i \neq j} z_{ij}
-\]
-
-** Constraints: **
+#### Constraints
 - ** Solution Definition: **
-\[
+$$
 y_{ij} = s_{ij} - x_{ij}
-\]
-- ** Transaction Activation: **
-\[
-y_{ij} \leq M * z_{ij}
-\]
+$$
 - ** Transaction Invariant: **
-\[
+$$
 \sum_{j} y_{ij} - \sum_{j} y_{ji} = s_{ij}
-\]
+$$
